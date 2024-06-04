@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Products - Sean Store</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    .jumbotron {
+      margin-bottom: 0;
+    }
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    .panel-body img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <h1>Sean Store</h1>      
+    <p>Figures, Toys & Collectibles</p>
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="products.html">Products</a></li>
+        <li><a href="deals.html">Deals</a></li>
+        <li><a href="stores.html">Stores</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search for products...">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">Go!</button>
+        </span>
+      </div>
+    </div>
+  </div><br>
+  
+  <h2>Our Products</h2>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Product 1</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" alt="Product 1"></div>
+        <div class="panel-footer">Collectible Figurine - $19.99 <button class="btn btn-primary btn-xs pull-right">Buy Now</button></div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-danger">
+        <div class="panel-heading">Product 2</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" alt="Product 2"></div>
+        <div class="panel-footer">Exclusive Action Figure - $29.99 <button class="btn btn-danger btn-xs pull-right">Buy Now</button></div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">Product 3</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" alt="Product 3"></div>
+        <div class="panel-footer">Limited Edition Toy - $39.99 <button class="btn btn-success btn-xs pull-right">Buy Now</button></div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-info">
+        <div class="panel-heading">Product 4</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" alt="Product 4"></div>
+        <div class="panel-footer">New Collectible Figurine - $24.99 <button class="btn btn-info btn-xs pull-right">Buy Now</button></div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-warning">
+        <div class="panel-heading">Product 5</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" alt="Product 5"></div>
+        <div class="panel-footer">Rare Vintage Toy - $49.99 <button class="btn btn-warning btn-xs pull-right">Buy Now</button></div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Product 6</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" alt="Product 6"></div>
+        <div class="panel-footer">Classic Action Figure - $34.99 <button class="btn btn-primary btn-xs pull-right">Buy Now</button></div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<footer class="container-fluid text-center">
+  <p>&copy; 2024 Sean Store. All Rights Reserved.</p>  
+  <form class="form-inline">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Email Address" aria-label="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+</footer>
+
+</body>
+</html>
